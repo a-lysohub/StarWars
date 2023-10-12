@@ -1,0 +1,19 @@
+{
+  "starWarsList": "Star Wars List",
+  "peopleDetails": "People Details",
+  "femaleFans": "Female Fans",
+  "maleFans": "Male Fans",
+  "others": "Others",
+  "clearFans": "Clear fans",
+  "name": "Name",
+  "gender": "Gender",
+  "height": "Height",
+  "mass": "Mass",
+  "birthYear": "Birth Year",
+
+  "fanModal": {
+    "text": "Do You really want select it?",
+    "cancel": "Cancel",
+    "fan": "Fan"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "app/assets/fonts/Mulish-Black.ttf",
+      "sha1": "cf8b4ae634c959cc94e292458cbb9e745e60a86a"
+    },
+    {
+      "path": "app/assets/fonts/Mulish-Bold.ttf",
+      "sha1": "081709d53ef238523c257d2544571efa55281552"
+    },
+    {
+      "path": "app/assets/fonts/Mulish-Italic.ttf",
+      "sha1": "1c83c5c05fc3545f1d72176fb26c68171fd2bd11"
+    },
+    {
+      "path": "app/assets/fonts/Mulish-Light.ttf",
+      "sha1": "32ff0d01c3ac36149f1ecf29975b6bb0fd895f99"
+    },
+    {
+      "path": "app/assets/fonts/Mulish-Medium.ttf",
+      "sha1": "4c6a7184365e8a5217af5069d3c7846bb0b27fd2"
+    },
+    {
+      "path": "app/assets/fonts/Mulish-Regular.ttf",
+      "sha1": "89a41f5264672d2d1c11768d8a5325adeee0cfa3"
+    },
+    {
+      "path": "app/assets/fonts/Roboto-Black.ttf",
+      "sha1": "e28654c12713143bfdd72f8c559c48a19c1cbf18"
+    },
+    {
+      "path": "app/assets/fonts/Roboto-Bold.ttf",
+      "sha1": "013f1bbcbbd80991a5f00fca52a90d0d7ab8b81f"
+    },
+    {
+      "path": "app/assets/fonts/Roboto-Light.ttf",
+      "sha1": "51dbae4543aaa10096e344e48fcffe468bd314a9"
+    },
+    {
+      "path": "app/assets/fonts/Roboto-Medium.ttf",
+      "sha1": "fddc8b1c688ef3baed0d5a46abf5f01f0edaf02b"
+    },
+    {
+      "path": "app/assets/fonts/Roboto-Regular.ttf",
+      "sha1": "84d102488738b0ebbc7a5087973effbd54c95bd5"
+    }
+  ]
+}
