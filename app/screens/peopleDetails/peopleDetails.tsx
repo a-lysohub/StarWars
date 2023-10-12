@@ -1,12 +1,12 @@
 import React, { FC, useCallback, useState } from 'react';
-import { Image, Pressable, Text, View } from 'react-native';
+import { Image, Text, View } from 'react-native';
 import { useTranslation } from 'react-i18next';
 
 import type { RouteMap } from '@app/navigation/stackNavigation/screenTypes';
 
 import { StarWarsScreens, useNavigation } from '@app/navigation';
 
-import { Header, ModalNotification } from '@app/components';
+import { Button, Header, ModalNotification } from '@app/components';
 import { peopleDetailsStyles } from './peopleDetails.styles';
 import { InfoBlockProps } from './peopleDetails.props';
 
@@ -53,9 +53,7 @@ export const PeopleDetails: FC<Props> = ({ route }) => {
   return (
     <View>
       <Header backBtn title={t('peopleDetails')} />
-      <Pressable
-        style={peopleDetailsStyles.container}
-        onPress={handleClickPerson}>
+      <View style={peopleDetailsStyles.container}>
         <InfoBlock item={t('name')} info={name} />
         <InfoBlock item={t('gender')} info={gender} />
         <InfoBlock item={t('height')} info={height} />
@@ -66,14 +64,18 @@ export const PeopleDetails: FC<Props> = ({ route }) => {
         ) : (
           <Image source={NotLikedImage} style={peopleDetailsStyles.img} />
         )}
-      </Pressable>
+        <Button
+          title={fan ? t('dellFromFan') : t('addToFan')}
+          onPress={handleClickPerson}
+        />
+      </View>
       <ModalNotification
         isVisible={isLikeModalVisible}
-        title={t('fanModal.fan')}
+        title={fan ? t('fanModal.unfan') : t('fanModal.fan')}
         text={t('fanModal.text')}
-        onCancelTitle={t('cancel')}
+        onCancelTitle={t('fanModal.cancel')}
         cancelHandler={() => setLikeModalVisible(!isLikeModalVisible)}
-        onSuccessTitle={t('fanModal.fan')}
+        onSuccessTitle={fan ? t('fanModal.unfan') : t('fanModal.fan')}
         successHandler={addLikeHandler}
       />
     </View>

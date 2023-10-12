@@ -34,7 +34,6 @@ export const CounterBlock: React.FC<CounterProps> = ({
         customStyles={counterStyles.button}
         onPress={onClick}
         title={t('clearFans')}
-        width={80}
       />
     </View>
   );

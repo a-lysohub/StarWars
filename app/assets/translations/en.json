@@ -10,10 +10,13 @@
   "height": "Height",
   "mass": "Mass",
   "birthYear": "Birth Year",
+  "addToFan": "Add to favourites",
+  "dellFromFan": "Remove from favorites",
 
   "fanModal": {
-    "text": "Do You really want select it?",
+    "text": "Do You really want to select it?",
     "cancel": "Cancel",
-    "fan": "Fan"
+    "fan": "Add",
+    "unfan": "Delete"
   }
 }

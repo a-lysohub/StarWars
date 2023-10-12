@@ -10,6 +10,7 @@ export const buttonStyles = StyleSheet.create({
     justifyContent: 'center',
     marginVertical: spacing[4],
     backgroundColor: palette.darkGrey,
+    paddingHorizontal: spacing[1],
   },
   transparent: {
     opacity: 0.5,
